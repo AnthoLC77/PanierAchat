@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  margin: 1em 0 2em 0;
+}
+
+h3 {
+  margin-bottom: 0.7em;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid white;
+  background-color: rgb(204, 0, 0);
+  color: #fff;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#list-card-items {
+  display: flex;
+  gap: 50px;
+}
+
+.card-items {
+  width: 30%;
+  padding: 10px;
+  border: solid rgb(204, 0, 0) 2px;
+}
+
+#panier {
+  width: 100%;
+  margin-bottom: 2em;
+  background-color: rgb(204, 0, 0);
+  color: #fff;
+  padding: 10px;
+}
